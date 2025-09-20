@@ -1,5 +1,4 @@
 use("supermarket");
-
 db.productos.aggregate([
   {
     $lookup: {
@@ -10,19 +9,14 @@ db.productos.aggregate([
     }
   },
   {
-    // Aplanamos el array 'cat' para poder acceder a sus campos directamente
-    // y usar el $match de forma efectiva.
     $unwind: "$cat"
   },
   {
-    // El $match debe ir aquí, después de que 'cat' esté disponible
-    // y antes del $project que podría ocultarlo.
     $match: {
       $or: [{ "cat.nombre": "Frutas" }, { "cat.nombre": "Aseo" }]
     }
   },
   {
-    // Finalmente, proyectamos los campos que queremos en el resultado.
     $project: {
       _id: 1,
       nombre: 1,
