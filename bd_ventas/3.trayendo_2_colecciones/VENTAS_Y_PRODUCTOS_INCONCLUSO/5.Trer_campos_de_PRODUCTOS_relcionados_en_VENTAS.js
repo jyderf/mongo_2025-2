@@ -21,8 +21,8 @@ db.ventas.aggregate([
                    _id: 1,
                    cliente_id:1,
                    fecha :1,   
-                   prod.nombre: 1,
-                   prod.precio: 1,
+                   "prod.nombre":1,
+                  "prod.precio":1,
                    total: 1,
           } 
        },  
