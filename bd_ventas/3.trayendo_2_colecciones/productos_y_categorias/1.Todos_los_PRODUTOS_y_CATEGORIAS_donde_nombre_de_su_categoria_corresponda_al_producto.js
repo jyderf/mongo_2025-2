@@ -1,8 +1,8 @@
 use("supermarket");
 
 db.productos.aggregate([
-  // Etapa 1: $lookup  // Esta etapa se encarga de unir documentos de la colección 'productos' con la colección 'categorias'.  
-  {
+  
+  { // Etapa 1: $lookup  // Esta etapa se encarga de unir documentos de la colección 'productos' con la colección 'categorias'.  
     $lookup: {
       from: "categorias",          // Colección externa con la que se hará la unión
       localField: "categoria_id",  // Campo en la colección 'productos' para la unión
@@ -10,18 +10,11 @@ db.productos.aggregate([
       as: "cat"                    // Nombre del nuevo campo que contendrá los documentos de la categoría (será un array)
     }
   },
-
      /*Etapa 2: $unwindEsta etapa "desanida" el array 'cat' que se creó en la etapa anterior.Es útil para procesar cada elemento del array como un documento independiente,facilitando el acceso directo a sus campos en las etapas siguientes. */
-  
   {
     $unwind: "$cat"
   },
-
-  // ---
-
-  // Etapa 3: $project
-  // Esta etapa define la forma final del documento de salida.
-  // Permite seleccionar, renombrar y excluir campos.
+  // Etapa 3: $project // Esta etapa define la forma final del documento de salida. // Permite seleccionar, renombrar y excluir campos.
   {
     $project: {
       _id: 0,                      // Oculta el campo _id para un resultado más limpio
