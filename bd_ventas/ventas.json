@@ -1,0 +1,1238 @@
+[
+    {
+      "id_transaccion": "T001",
+      "fecha": "2024-07-20",
+      "cliente": {
+        "nombre": "Ana García",
+        "id_cliente": "C010",
+        "ciudad": "Madrid"
+      },
+      "items": [
+        {
+          "sku": "B001",
+          "titulo": "El laberinto de la soledad",
+          "autor": "Octavio Paz",
+          "categoria": "Ensayo",
+          "cantidad": 1,
+          "precio_unitario": 15.50
+        },
+        {
+          "sku": "B015",
+          "titulo": "Cien años de soledad",
+          "autor": "Gabriel García Márquez",
+          "categoria": "Novela",
+          "cantidad": 2,
+          "precio_unitario": 12.00
+        }
+      ],
+      "total_venta": 39.50,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T002",
+      "fecha": "2024-07-21",
+      "cliente": {
+        "nombre": "Luis Pérez",
+        "id_cliente": "C011",
+        "ciudad": "Barcelona"
+      },
+      "items": [
+        {
+          "sku": "B002",
+          "titulo": "Don Quijote de la Mancha",
+          "autor": "Miguel de Cervantes",
+          "categoria": "Novela",
+          "cantidad": 1,
+          "precio_unitario": 25.00
+        }
+      ],
+      "total_venta": 25.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T003",
+      "fecha": "2024-07-21",
+      "cliente": {
+        "nombre": "Marta López",
+        "id_cliente": "C012",
+        "ciudad": "Valencia"
+      },
+      "items": [
+        {
+          "sku": "B003",
+          "titulo": "La casa de los espíritus",
+          "autor": "Isabel Allende",
+          "categoria": "Ficción",
+          "cantidad": 1,
+          "precio_unitario": 18.75
+        }
+      ],
+      "total_venta": 18.75,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T004",
+      "fecha": "2024-07-22",
+      "cliente": {
+        "nombre": "Pedro Sánchez",
+        "id_cliente": "C013",
+        "ciudad": "Sevilla"
+      },
+      "items": [
+        {
+          "sku": "B004",
+          "titulo": "Crónica de una muerte anunciada",
+          "autor": "Gabriel García Márquez",
+          "categoria": "Novela",
+          "cantidad": 3,
+          "precio_unitario": 10.00
+        }
+      ],
+      "total_venta": 30.00,
+      "metodo_pago": "Transferencia",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T005",
+      "fecha": "2024-07-22",
+      "cliente": {
+        "nombre": "Sofía Torres",
+        "id_cliente": "C014",
+        "ciudad": "Bilbao"
+      },
+      "items": [
+        {
+          "sku": "B005",
+          "titulo": "La sombra del viento",
+          "autor": "Carlos Ruiz Zafón",
+          "categoria": "Misterio",
+          "cantidad": 1,
+          "precio_unitario": 17.50
+        },
+        {
+          "sku": "B006",
+          "titulo": "La catedral del mar",
+          "autor": "Ildefonso Falcones",
+          "categoria": "Histórica",
+          "cantidad": 1,
+          "precio_unitario": 19.99
+        }
+      ],
+      "total_venta": 37.49,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T006",
+      "fecha": "2024-07-23",
+      "cliente": {
+        "nombre": "Javier Ruiz",
+        "id_cliente": "C015",
+        "ciudad": "Zaragoza"
+      },
+      "items": [
+        {
+          "sku": "B007",
+          "titulo": "El nombre de la rosa",
+          "autor": "Umberto Eco",
+          "categoria": "Misterio",
+          "cantidad": 1,
+          "precio_unitario": 21.00
+        }
+      ],
+      "total_venta": 21.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T007",
+      "fecha": "2024-07-23",
+      "cliente": {
+        "nombre": "Elena Castro",
+        "id_cliente": "C016",
+        "ciudad": "Madrid"
+      },
+      "items": [
+        {
+          "sku": "B008",
+          "titulo": "El código Da Vinci",
+          "autor": "Dan Brown",
+          "categoria": "Thriller",
+          "cantidad": 2,
+          "precio_unitario": 14.50
+        }
+      ],
+      "total_venta": 29.00,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T008",
+      "fecha": "2024-07-24",
+      "cliente": {
+        "nombre": "David Jiménez",
+        "id_cliente": "C017",
+        "ciudad": "Barcelona"
+      },
+      "items": [
+        {
+          "sku": "B009",
+          "titulo": "La isla de las mil fuentes",
+          "autor": "Victoria B. Coto",
+          "categoria": "Romance",
+          "cantidad": 1,
+          "precio_unitario": 16.25
+        }
+      ],
+      "total_venta": 16.25,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T009",
+      "fecha": "2024-07-24",
+      "cliente": {
+        "nombre": "Paula Gil",
+        "id_cliente": "C018",
+        "ciudad": "Valencia"
+      },
+      "items": [
+        {
+          "sku": "B010",
+          "titulo": "El Principito",
+          "autor": "Antoine de Saint-Exupéry",
+          "categoria": "Literatura infantil",
+          "cantidad": 5,
+          "precio_unitario": 8.00
+        }
+      ],
+      "total_venta": 40.00,
+      "metodo_pago": "Transferencia",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T010",
+      "fecha": "2024-07-25",
+      "cliente": {
+        "nombre": "Ricardo Moreno",
+        "id_cliente": "C019",
+        "ciudad": "Sevilla"
+      },
+      "items": [
+        {
+          "sku": "B011",
+          "titulo": "Los pilares de la Tierra",
+          "autor": "Ken Follett",
+          "categoria": "Histórica",
+          "cantidad": 1,
+          "precio_unitario": 22.50
+        }
+      ],
+      "total_venta": 22.50,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T011",
+      "fecha": "2024-07-25",
+      "cliente": {
+        "nombre": "Isabel Romero",
+        "id_cliente": "C020",
+        "ciudad": "Bilbao"
+      },
+      "items": [
+        {
+          "sku": "B012",
+          "titulo": "Rayuela",
+          "autor": "Julio Cortázar",
+          "categoria": "Novela",
+          "cantidad": 1,
+          "precio_unitario": 16.00
+        }
+      ],
+      "total_venta": 16.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T012",
+      "fecha": "2024-07-26",
+      "cliente": {
+        "nombre": "Carlos Fernández",
+        "id_cliente": "C021",
+        "ciudad": "Zaragoza"
+      },
+      "items": [
+        {
+          "sku": "B013",
+          "titulo": "La sombra de la serpiente",
+          "autor": "J.K. Rowling",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 14.99
+        },
+        {
+          "sku": "B014",
+          "titulo": "Juego de Tronos",
+          "autor": "George R.R. Martin",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 20.50
+        }
+      ],
+      "total_venta": 35.49,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T013",
+      "fecha": "2024-07-26",
+      "cliente": {
+        "nombre": "Julia Morales",
+        "id_cliente": "C022",
+        "ciudad": "Madrid"
+      },
+      "items": [
+        {
+          "sku": "B015",
+          "titulo": "Cien años de soledad",
+          "autor": "Gabriel García Márquez",
+          "categoria": "Novela",
+          "cantidad": 1,
+          "precio_unitario": 12.00
+        }
+      ],
+      "total_venta": 12.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T014",
+      "fecha": "2024-07-27",
+      "cliente": {
+        "nombre": "Manuel Suárez",
+        "id_cliente": "C023",
+        "ciudad": "Barcelona"
+      },
+      "items": [
+        {
+          "sku": "B016",
+          "titulo": "Sapiens: De animales a dioses",
+          "autor": "Yuval Noah Harari",
+          "categoria": "Ensayo",
+          "cantidad": 1,
+          "precio_unitario": 23.00
+        }
+      ],
+      "total_venta": 23.00,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T015",
+      "fecha": "2024-07-27",
+      "cliente": {
+        "nombre": "Andrea Castro",
+        "id_cliente": "C024",
+        "ciudad": "Valencia"
+      },
+      "items": [
+        {
+          "sku": "B017",
+          "titulo": "El lobo estepario",
+          "autor": "Hermann Hesse",
+          "categoria": "Novela",
+          "cantidad": 1,
+          "precio_unitario": 13.50
+        }
+      ],
+      "total_venta": 13.50,
+      "metodo_pago": "Transferencia",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T016",
+      "fecha": "2024-07-28",
+      "cliente": {
+        "nombre": "Jorge Giménez",
+        "id_cliente": "C025",
+        "ciudad": "Sevilla"
+      },
+      "items": [
+        {
+          "sku": "B018",
+          "titulo": "Crimen y castigo",
+          "autor": "Fiódor Dostoievski",
+          "categoria": "Clásico",
+          "cantidad": 1,
+          "precio_unitario": 19.99
+        },
+        {
+          "sku": "B019",
+          "titulo": "Orgullo y prejuicio",
+          "autor": "Jane Austen",
+          "categoria": "Clásico",
+          "cantidad": 1,
+          "precio_unitario": 11.50
+        }
+      ],
+      "total_venta": 31.49,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T017",
+      "fecha": "2024-07-28",
+      "cliente": {
+        "nombre": "Marina Díez",
+        "id_cliente": "C026",
+        "ciudad": "Bilbao"
+      },
+      "items": [
+        {
+          "sku": "B020",
+          "titulo": "1984",
+          "autor": "George Orwell",
+          "categoria": "Ciencia Ficción",
+          "cantidad": 1,
+          "precio_unitario": 10.00
+        }
+      ],
+      "total_venta": 10.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T018",
+      "fecha": "2024-07-29",
+      "cliente": {
+        "nombre": "Pablo Hernández",
+        "id_cliente": "C027",
+        "ciudad": "Zaragoza"
+      },
+      "items": [
+        {
+          "sku": "B021",
+          "titulo": "Harry Potter y la piedra filosofal",
+          "autor": "J.K. Rowling",
+          "categoria": "Fantasía",
+          "cantidad": 2,
+          "precio_unitario": 13.99
+        }
+      ],
+      "total_venta": 27.98,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T019",
+      "fecha": "2024-07-29",
+      "cliente": {
+        "nombre": "Natalia Soto",
+        "id_cliente": "C028",
+        "ciudad": "Madrid"
+      },
+      "items": [
+        {
+          "sku": "B022",
+          "titulo": "El señor de los anillos: La comunidad del anillo",
+          "autor": "J.R.R. Tolkien",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 21.50
+        }
+      ],
+      "total_venta": 21.50,
+      "metodo_pago": "Transferencia",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T020",
+      "fecha": "2024-07-30",
+      "cliente": {
+        "nombre": "Fernando Reyes",
+        "id_cliente": "C029",
+        "ciudad": "Barcelona"
+      },
+      "items": [
+        {
+          "sku": "B023",
+          "titulo": "El Hobbit",
+          "autor": "J.R.R. Tolkien",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 15.00
+        },
+        {
+          "sku": "B024",
+          "titulo": "Un mundo feliz",
+          "autor": "Aldous Huxley",
+          "categoria": "Ciencia Ficción",
+          "cantidad": 1,
+          "precio_unitario": 12.50
+        }
+      ],
+      "total_venta": 27.50,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T021",
+      "fecha": "2024-07-30",
+      "cliente": {
+        "nombre": "Laura Vidal",
+        "id_cliente": "C030",
+        "ciudad": "Valencia"
+      },
+      "items": [
+        {
+          "sku": "B025",
+          "titulo": "El perfume",
+          "autor": "Patrick Süskind",
+          "categoria": "Novela",
+          "cantidad": 1,
+          "precio_unitario": 14.00
+        }
+      ],
+      "total_venta": 14.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T022",
+      "fecha": "2024-07-31",
+      "cliente": {
+        "nombre": "Daniela Ferrer",
+        "id_cliente": "C031",
+        "ciudad": "Sevilla"
+      },
+      "items": [
+        {
+          "sku": "B026",
+          "titulo": "Anna Karenina",
+          "autor": "León Tolstói",
+          "categoria": "Clásico",
+          "cantidad": 1,
+          "precio_unitario": 20.00
+        }
+      ],
+      "total_venta": 20.00,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T023",
+      "fecha": "2024-07-31",
+      "cliente": {
+        "nombre": "Mario Pérez",
+        "id_cliente": "C032",
+        "ciudad": "Bilbao"
+      },
+      "items": [
+        {
+          "sku": "B027",
+          "titulo": "Las uvas de la ira",
+          "autor": "John Steinbeck",
+          "categoria": "Clásico",
+          "cantidad": 1,
+          "precio_unitario": 16.50
+        },
+        {
+          "sku": "B028",
+          "titulo": "Matar a un ruiseñor",
+          "autor": "Harper Lee",
+          "categoria": "Clásico",
+          "cantidad": 1,
+          "precio_unitario": 13.00
+        }
+      ],
+      "total_venta": 29.50,
+      "metodo_pago": "Transferencia",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T024",
+      "fecha": "2024-08-01",
+      "cliente": {
+        "nombre": "Lucía Martín",
+        "id_cliente": "C033",
+        "ciudad": "Zaragoza"
+      },
+      "items": [
+        {
+          "sku": "B029",
+          "titulo": "Fahrenheit 451",
+          "autor": "Ray Bradbury",
+          "categoria": "Ciencia Ficción",
+          "cantidad": 1,
+          "precio_unitario": 11.00
+        }
+      ],
+      "total_venta": 11.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T025",
+      "fecha": "2024-08-01",
+      "cliente": {
+        "nombre": "Alejandro Castro",
+        "id_cliente": "C034",
+        "ciudad": "Madrid"
+      },
+      "items": [
+        {
+          "sku": "B030",
+          "titulo": "El retrato de Dorian Gray",
+          "autor": "Oscar Wilde",
+          "categoria": "Clásico",
+          "cantidad": 1,
+          "precio_unitario": 14.50
+        },
+        {
+          "sku": "B031",
+          "titulo": "Orgullo y prejuicio",
+          "autor": "Jane Austen",
+          "categoria": "Clásico",
+          "cantidad": 1,
+          "precio_unitario": 11.50
+        }
+      ],
+      "total_venta": 26.00,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T026",
+      "fecha": "2024-08-02",
+      "cliente": {
+        "nombre": "Carolina Soto",
+        "id_cliente": "C035",
+        "ciudad": "Barcelona"
+      },
+      "items": [
+        {
+          "sku": "B032",
+          "titulo": "Las crónicas de Narnia: El león, la bruja y el armario",
+          "autor": "C.S. Lewis",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 13.00
+        }
+      ],
+      "total_venta": 13.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T027",
+      "fecha": "2024-08-02",
+      "cliente": {
+        "nombre": "Roberto Gil",
+        "id_cliente": "C036",
+        "ciudad": "Valencia"
+      },
+      "items": [
+        {
+          "sku": "B033",
+          "titulo": "El Gran Gatsby",
+          "autor": "F. Scott Fitzgerald",
+          "categoria": "Clásico",
+          "cantidad": 1,
+          "precio_unitario": 10.50
+        },
+        {
+          "sku": "B034",
+          "titulo": "Moby Dick",
+          "autor": "Herman Melville",
+          "categoria": "Clásico",
+          "cantidad": 1,
+          "precio_unitario": 18.00
+        }
+      ],
+      "total_venta": 28.50,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T028",
+      "fecha": "2024-08-03",
+      "cliente": {
+        "nombre": "Victoria Castro",
+        "id_cliente": "C037",
+        "ciudad": "Sevilla"
+      },
+      "items": [
+        {
+          "sku": "B035",
+          "titulo": "Viaje al centro de la Tierra",
+          "autor": "Julio Verne",
+          "categoria": "Aventura",
+          "cantidad": 1,
+          "precio_unitario": 15.00
+        }
+      ],
+      "total_venta": 15.00,
+      "metodo_pago": "Transferencia",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T029",
+      "fecha": "2024-08-03",
+      "cliente": {
+        "nombre": "Diego Soto",
+        "id_cliente": "C038",
+        "ciudad": "Bilbao"
+      },
+      "items": [
+        {
+          "sku": "B036",
+          "titulo": "El Principito",
+          "autor": "Antoine de Saint-Exupéry",
+          "categoria": "Literatura infantil",
+          "cantidad": 2,
+          "precio_unitario": 8.00
+        }
+      ],
+      "total_venta": 16.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T030",
+      "fecha": "2024-08-04",
+      "cliente": {
+        "nombre": "Clara Ramírez",
+        "id_cliente": "C039",
+        "ciudad": "Zaragoza"
+      },
+      "items": [
+        {
+          "sku": "B037",
+          "titulo": "Siddhartha",
+          "autor": "Hermann Hesse",
+          "categoria": "Novela",
+          "cantidad": 1,
+          "precio_unitario": 11.50
+        },
+        {
+          "sku": "B038",
+          "titulo": "El alquimista",
+          "autor": "Paulo Coelho",
+          "categoria": "Ficción",
+          "cantidad": 1,
+          "precio_unitario": 12.00
+        }
+      ],
+      "total_venta": 23.50,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T031",
+      "fecha": "2024-08-04",
+      "cliente": {
+        "nombre": "Raúl Gómez",
+        "id_cliente": "C040",
+        "ciudad": "Madrid"
+      },
+      "items": [
+        {
+          "sku": "B039",
+          "titulo": "Los juegos del hambre",
+          "autor": "Suzanne Collins",
+          "categoria": "Ciencia Ficción",
+          "cantidad": 1,
+          "precio_unitario": 14.50
+        }
+      ],
+      "total_venta": 14.50,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T032",
+      "fecha": "2024-08-05",
+      "cliente": {
+        "nombre": "Eva Ramos",
+        "id_cliente": "C041",
+        "ciudad": "Barcelona"
+      },
+      "items": [
+        {
+          "sku": "B040",
+          "titulo": "La chica del tren",
+          "autor": "Paula Hawkins",
+          "categoria": "Thriller",
+          "cantidad": 1,
+          "precio_unitario": 16.50
+        }
+      ],
+      "total_venta": 16.50,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T033",
+      "fecha": "2024-08-05",
+      "cliente": {
+        "nombre": "Adriana Torres",
+        "id_cliente": "C042",
+        "ciudad": "Valencia"
+      },
+      "items": [
+        {
+          "sku": "B041",
+          "titulo": "La carretera",
+          "autor": "Cormac McCarthy",
+          "categoria": "Distopía",
+          "cantidad": 1,
+          "precio_unitario": 13.00
+        }
+      ],
+      "total_venta": 13.00,
+      "metodo_pago": "Transferencia",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T034",
+      "fecha": "2024-08-06",
+      "cliente": {
+        "nombre": "Hugo Blanco",
+        "id_cliente": "C043",
+        "ciudad": "Sevilla"
+      },
+      "items": [
+        {
+          "sku": "B042",
+          "titulo": "El guardián entre el centeno",
+          "autor": "J.D. Salinger",
+          "categoria": "Novela",
+          "cantidad": 1,
+          "precio_unitario": 12.00
+        }
+      ],
+      "total_venta": 12.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T035",
+      "fecha": "2024-08-06",
+      "cliente": {
+        "nombre": "Irene Vidal",
+        "id_cliente": "C044",
+        "ciudad": "Bilbao"
+      },
+      "items": [
+        {
+          "sku": "B043",
+          "titulo": "El código Da Vinci",
+          "autor": "Dan Brown",
+          "categoria": "Thriller",
+          "cantidad": 1,
+          "precio_unitario": 14.50
+        },
+        {
+          "sku": "B044",
+          "titulo": "El nombre de la rosa",
+          "autor": "Umberto Eco",
+          "categoria": "Misterio",
+          "cantidad": 1,
+          "precio_unitario": 21.00
+        }
+      ],
+      "total_venta": 35.50,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T036",
+      "fecha": "2024-08-07",
+      "cliente": {
+        "nombre": "Javier Ruiz",
+        "id_cliente": "C015",
+        "ciudad": "Zaragoza"
+      },
+      "items": [
+        {
+          "sku": "B006",
+          "titulo": "La catedral del mar",
+          "autor": "Ildefonso Falcones",
+          "categoria": "Histórica",
+          "cantidad": 2,
+          "precio_unitario": 19.99
+        }
+      ],
+      "total_venta": 39.98,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T037",
+      "fecha": "2024-08-07",
+      "cliente": {
+        "nombre": "Elena Castro",
+        "id_cliente": "C016",
+        "ciudad": "Madrid"
+      },
+      "items": [
+        {
+          "sku": "B015",
+          "titulo": "Cien años de soledad",
+          "autor": "Gabriel García Márquez",
+          "categoria": "Novela",
+          "cantidad": 1,
+          "precio_unitario": 12.00
+        },
+        {
+          "sku": "B020",
+          "titulo": "1984",
+          "autor": "George Orwell",
+          "categoria": "Ciencia Ficción",
+          "cantidad": 1,
+          "precio_unitario": 10.00
+        }
+      ],
+      "total_venta": 22.00,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T038",
+      "fecha": "2024-08-08",
+      "cliente": {
+        "nombre": "David Jiménez",
+        "id_cliente": "C017",
+        "ciudad": "Barcelona"
+      },
+      "items": [
+        {
+          "sku": "B005",
+          "titulo": "La sombra del viento",
+          "autor": "Carlos Ruiz Zafón",
+          "categoria": "Misterio",
+          "cantidad": 1,
+          "precio_unitario": 17.50
+        }
+      ],
+      "total_venta": 17.50,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T039",
+      "fecha": "2024-08-08",
+      "cliente": {
+        "nombre": "Paula Gil",
+        "id_cliente": "C018",
+        "ciudad": "Valencia"
+      },
+      "items": [
+        {
+          "sku": "B010",
+          "titulo": "El Principito",
+          "autor": "Antoine de Saint-Exupéry",
+          "categoria": "Literatura infantil",
+          "cantidad": 1,
+          "precio_unitario": 8.00
+        },
+        {
+          "sku": "B022",
+          "titulo": "El señor de los anillos: La comunidad del anillo",
+          "autor": "J.R.R. Tolkien",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 21.50
+        }
+      ],
+      "total_venta": 29.50,
+      "metodo_pago": "Transferencia",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T040",
+      "fecha": "2024-08-09",
+      "cliente": {
+        "nombre": "Ricardo Moreno",
+        "id_cliente": "C019",
+        "ciudad": "Sevilla"
+      },
+      "items": [
+        {
+          "sku": "B011",
+          "titulo": "Los pilares de la Tierra",
+          "autor": "Ken Follett",
+          "categoria": "Histórica",
+          "cantidad": 1,
+          "precio_unitario": 22.50
+        }
+      ],
+      "total_venta": 22.50,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T041",
+      "fecha": "2024-08-09",
+      "cliente": {
+        "nombre": "Isabel Romero",
+        "id_cliente": "C020",
+        "ciudad": "Bilbao"
+      },
+      "items": [
+        {
+          "sku": "B012",
+          "titulo": "Rayuela",
+          "autor": "Julio Cortázar",
+          "categoria": "Novela",
+          "cantidad": 2,
+          "precio_unitario": 16.00
+        },
+        {
+          "sku": "B023",
+          "titulo": "El Hobbit",
+          "autor": "J.R.R. Tolkien",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 15.00
+        }
+      ],
+      "total_venta": 47.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T042",
+      "fecha": "2024-08-10",
+      "cliente": {
+        "nombre": "Carlos Fernández",
+        "id_cliente": "C021",
+        "ciudad": "Zaragoza"
+      },
+      "items": [
+        {
+          "sku": "B013",
+          "titulo": "La sombra de la serpiente",
+          "autor": "J.K. Rowling",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 14.99
+        },
+        {
+          "sku": "B014",
+          "titulo": "Juego de Tronos",
+          "autor": "George R.R. Martin",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 20.50
+        }
+      ],
+      "total_venta": 35.49,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T043",
+      "fecha": "2024-08-10",
+      "cliente": {
+        "nombre": "Julia Morales",
+        "id_cliente": "C022",
+        "ciudad": "Madrid"
+      },
+      "items": [
+        {
+          "sku": "B015",
+          "titulo": "Cien años de soledad",
+          "autor": "Gabriel García Márquez",
+          "categoria": "Novela",
+          "cantidad": 1,
+          "precio_unitario": 12.00
+        }
+      ],
+      "total_venta": 12.00,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T044",
+      "fecha": "2024-08-11",
+      "cliente": {
+        "nombre": "Manuel Suárez",
+        "id_cliente": "C023",
+        "ciudad": "Barcelona"
+      },
+      "items": [
+        {
+          "sku": "B016",
+          "titulo": "Sapiens: De animales a dioses",
+          "autor": "Yuval Noah Harari",
+          "categoria": "Ensayo",
+          "cantidad": 1,
+          "precio_unitario": 23.00
+        }
+      ],
+      "total_venta": 23.00,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T045",
+      "fecha": "2024-08-11",
+      "cliente": {
+        "nombre": "Andrea Castro",
+        "id_cliente": "C024",
+        "ciudad": "Valencia"
+      },
+      "items": [
+        {
+          "sku": "B017",
+          "titulo": "El lobo estepario",
+          "autor": "Hermann Hesse",
+          "categoria": "Novela",
+          "cantidad": 1,
+          "precio_unitario": 13.50
+        }
+      ],
+      "total_venta": 13.50,
+      "metodo_pago": "Transferencia",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T046",
+      "fecha": "2024-08-12",
+      "cliente": {
+        "nombre": "Jorge Giménez",
+        "id_cliente": "C025",
+        "ciudad": "Sevilla"
+      },
+      "items": [
+        {
+          "sku": "B018",
+          "titulo": "Crimen y castigo",
+          "autor": "Fiódor Dostoievski",
+          "categoria": "Clásico",
+          "cantidad": 1,
+          "precio_unitario": 19.99
+        },
+        {
+          "sku": "B019",
+          "titulo": "Orgullo y prejuicio",
+          "autor": "Jane Austen",
+          "categoria": "Clásico",
+          "cantidad": 1,
+          "precio_unitario": 11.50
+        }
+      ],
+      "total_venta": 31.49,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T047",
+      "fecha": "2024-08-12",
+      "cliente": {
+        "nombre": "Marina Díez",
+        "id_cliente": "C026",
+        "ciudad": "Bilbao"
+      },
+      "items": [
+        {
+          "sku": "B020",
+          "titulo": "1984",
+          "autor": "George Orwell",
+          "categoria": "Ciencia Ficción",
+          "cantidad": 1,
+          "precio_unitario": 10.00
+        },
+        {
+          "sku": "B021",
+          "titulo": "Harry Potter y la piedra filosofal",
+          "autor": "J.K. Rowling",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 13.99
+        }
+      ],
+      "total_venta": 23.99,
+      "metodo_pago": "Efectivo",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T048",
+      "fecha": "2024-08-13",
+      "cliente": {
+        "nombre": "Pablo Hernández",
+        "id_cliente": "C027",
+        "ciudad": "Zaragoza"
+      },
+      "items": [
+        {
+          "sku": "B022",
+          "titulo": "El señor de los anillos: La comunidad del anillo",
+          "autor": "J.R.R. Tolkien",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 21.50
+        },
+        {
+          "sku": "B023",
+          "titulo": "El Hobbit",
+          "autor": "J.R.R. Tolkien",
+          "categoria": "Fantasía",
+          "cantidad": 1,
+          "precio_unitario": 15.00
+        }
+      ],
+      "total_venta": 36.50,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T049",
+      "fecha": "2024-08-13",
+      "cliente": {
+        "nombre": "Natalia Soto",
+        "id_cliente": "C028",
+        "ciudad": "Madrid"
+      },
+      "items": [
+        {
+          "sku": "B024",
+          "titulo": "Un mundo feliz",
+          "autor": "Aldous Huxley",
+          "categoria": "Ciencia Ficción",
+          "cantidad": 1,
+          "precio_unitario": 12.50
+        }
+      ],
+      "total_venta": 12.50,
+      "metodo_pago": "Transferencia",
+      "descuento": 0.00
+    },
+    {
+      "id_transaccion": "T050",
+      "fecha": "2024-08-14",
+      "cliente": {
+        "nombre": "Fernando Reyes",
+        "id_cliente": "C029",
+        "ciudad": "Barcelona"
+      },
+      "items": [
+        {
+          "sku": "B025",
+          "titulo": "El perfume",
+          "autor": "Patrick Süskind",
+          "categoria": "Novela",
+          "cantidad": 1,
+          "precio_unitario": 14.00
+        }
+      ],
+      "total_venta": 14.00,
+      "metodo_pago": "Tarjeta de crédito",
+      "descuento": 0.00
+    }
+  ]
