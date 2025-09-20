@@ -1,56 +1,53 @@
 use("supermarket");
 db.productos.aggregate([
-  {
-    $lookup: {
-      from: "categorias",
-      localField: "categoria_id",
-      foreignField: "_id",
-      as: "cat"
-    }
-  },
-  {
-    $unwind: "$cat"
-  },
-  
-  {
-    $lookup: {
-      from: "proveedores",
-      localField: "proveedor_id",
-      foreignField: "_id",
-      as: "prov"
-    }
-  },
-  {
-    $unwind:"$prov"
-  },
-  {
-    $match: {
-        $and:[{ $or: [{ "cat.nombre": "Granos" }, { "cat.nombre": "Bebidas" }]},
-        { $or: [{ "_id": 26 }, { "_id": 27 },{"_id":28}]}
-    ]
-
-     
-    }
-  },
-  {
-    $project: {
-      _id: 1,
-      nombre: 1,
-      categoria: "$cat.nombre", // Renombramos 'cat.nombre' a 'categoria'
-      precio: 1,
-      stock: 1,
-      proveedor: "$prov.nombre",
-      sub_categoria:{
-        $cond:{
-            if:{$and:[{$eq:["$nombre","Cerveza lata"]},{$eq:["$cat.nombre","Bebidas"]}]},
-            then:"El producto no es para niños",
-            else:"El producto es para el público en general",
+    {
+        $lookup: {
+            from: "categorias",
+            localField: "categoria_id",
+            foreignField: "_id",
+            as: "cat"
         }
-      }
+    },
+    {
+        $unwind: "$cat"
+    },
+    {
+        $lookup: {
+            from: "proveedores",
+            localField: "proveedor_id",
+            foreignField: "_id",
+            as: "prov"
+        }
+    },
+    {
+        $unwind: "$prov"
+    },
+    {
+        $match: {
+            $and: [
+                { $or: [{ "cat.nombre": "Granos" }, { "cat.nombre": "Bebidas" }] },
+                { $or: [{ "_id": 26 }, { "_id": 27 }, { "_id": 28 }] }
+            ]
+        }
+    },
+    {
+        $project: {
+            _id: 1,
+            nombre: 1,
+            categoria: "$cat.nombre", // Renombramos 'cat.nombre' a 'categoria'
+            precio: 1,
+            stock: 1,
+            proveedor: "$prov.nombre",
+            sub_categoria: {
+                $cond: {
+                    if: { $and: [{ $eq: ["$nombre", "Cerveza lata"] }, { $eq: ["$cat.nombre", "Bebidas"] }] },
+                    then: "El producto no es para niños",
+                    else: "El producto es para el público en general",
+                }
+            }
+        }
     }
-  }
 ]);
-
 /*
 
 RESULTADO
